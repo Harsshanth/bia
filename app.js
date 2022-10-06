@@ -5,7 +5,7 @@ const app = express();
 
 // GET request for single file
 app.get("/", function (req, res) {
-  res.download("POSTMAN.pptx", function (err) {
+  res.download("POSTMAN.pdf", function (err) {
     if (err) {
       console.log(err);
     }
