@@ -1,0 +1,17 @@
+{
+  "name": "bia",
+  "version": "1.0.0",
+  "description": "bia",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js"
+  },
+  "author": "harsshanth, Annar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-zip": "^3.0.0"
+  }
+}
